@@ -1,0 +1,62 @@
+[
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 0,
+        "last_character_index": 495
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 295,
+        "last_character_index": 795
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 591,
+        "last_character_index": 1086
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 884,
+        "last_character_index": 1375
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 1171,
+        "last_character_index": 1669
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 1465,
+        "last_character_index": 1965
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 1763,
+        "last_character_index": 2254
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 2054,
+        "last_character_index": 2553
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 2346,
+        "last_character_index": 2844
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 2633,
+        "last_character_index": 3132
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 2929,
+        "last_character_index": 3428
+    },
+    {
+        "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+        "first_character_index": 3225,
+        "last_character_index": 3544
+    }
+]

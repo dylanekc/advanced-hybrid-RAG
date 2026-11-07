@@ -1,0 +1,50 @@
+{
+    "query": "Quels masques de protection spécifiques Marc et Sarah doivent-ils porter à cet instant précis dans leur zone ?",
+    "results": [
+        {
+            "score": 0.8962163329124451,
+            "text": "quant à eux, doivent toujours porter le masque Type-Y en zone sous pression, quelle que soit la version de leur combinaison.\n3. Chronologie des événements du 12 octobre : \n- 08h00 : Alerte biologique de niveau 3 déclenchée suite à une fuite dans le Secteur Oméga. La ventilation tombe en panne à 08h05. La température dans la baie médicale est mesurée à 38 °C.\n- 08h10 : Le technicien Marc (titulaire d'un badge rouge et vêtu d'une combinaison pressurisée V3) et l'ingénieure Sarah se trouvent dans",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+                "first_character_index": 2929,
+                "last_character_index": 3428
+            }
+        },
+        {
+            "score": 0.181965172290802,
+            "text": "d'urgence Nord, sauf si la température ambiante de la baie médicale dépasse 35 °C, auquel cas ils doivent utiliser le conduit d'urgence Sud. Les techniciens doivent rejoindre l'héliport par les escaliers de secours.\n2. Équipement et Protection : Le port du masque filtrant de Type-X est obligatoire pour toute personne présente dans les zones où la pression dépasse 2 bars. Toutefois, la note de service du 14 mai 2041 précise que les techniciens porteurs d'un badge rouge sont dispensés du masque",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+                "first_character_index": 2346,
+                "last_character_index": 2844
+            }
+        },
+        {
+            "score": 0.03494073078036308,
+            "text": "obligatoire pour toute personne présente dans les zones où la pression dépasse 2 bars. Toutefois, la note de service du 14 mai 2041 précise que les techniciens porteurs d'un badge rouge sont dispensés du masque Type-X si et seulement s'ils portent une combinaison pressurisée V3. Les ingénieurs, quant à eux, doivent toujours porter le masque Type-Y en zone sous pression, quelle que soit la version de leur combinaison.\n3. Chronologie des événements du 12 octobre : \n- 08h00 : Alerte biologique de",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+                "first_character_index": 2633,
+                "last_character_index": 3132
+            }
+        },
+        {
+            "score": 0.011171386577188969,
+            "text": "au calme (RAC) de 10 à 15 minutes et une hydratation avec des boissons riches en électrolytes sont indispensables pour limiter l'apparition des courbatures et accélérer la récupération.\nL'expédition arctique de 1924, dirigée par le botaniste Jules Vernet (sans lien avec l'écrivain), s'est articulée autour de trois camps successifs. Au camp de base (1 200 m), les provisions comprenaient du pemmican, du pain de seigle et des tablettes de chocolat noir. Les consignes médicales strictes",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+                "first_character_index": 884,
+                "last_character_index": 1375
+            }
+        },
+        {
+            "score": 0.008006670512259007,
+            "text": "été fixée lors des JO de Londres en 1908 pour que la course se termine précisément sous la loge royale. \nSur le plan physiologique, courir une telle distance nécessite une préparation méticuleuse de plusieurs mois, combinant des sorties longues pour habituer le corps à puiser dans ses réserves lipidiques, et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial : la phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/Agentic_RAG/Data_RAG/test.md",
+                "first_character_index": 295,
+                "last_character_index": 795
+            }
+        }
+    ]
+}
