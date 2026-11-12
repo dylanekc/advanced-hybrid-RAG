@@ -14,7 +14,11 @@ def run_llm(
     results_bm25 = data.get("results", [])
 
     context_text_bm25 = "\n\n".join(
-        [item["text"] for item in results_bm25 if "text" in item]
+        [
+            f'[S{index + 1}]\n{item["text"]}'
+            for index, item in enumerate(results_bm25)
+            if "text" in item
+        ]
     )
 
     if not context_text_bm25.strip():
@@ -27,8 +31,11 @@ def run_llm(
                 "content": (
                     "Tu es un assistant RAG en français. "
                     "Réponds à la question en te basant EXCLUSIVEMENT sur les documents fournis ci-dessous. "
-                    "Si la réponse n'y est pas, dis clairement que tu ne sais pas."
-                    "Si une règle dépend d'une condition (ex: température, rôle, état du matériel), évalue d'abord la condition puis donne la conclusion logique directe."
+                    "Si la réponse n'y est pas, dis clairement que tu ne sais pas. "
+                    "Si une règle dépend d'une condition (ex: température, rôle, état du matériel), évalue d'abord la condition puis donne la conclusion logique directe. "
+                    "Cite les passages qui justifient tes affirmations avec leurs identifiants [S1], [S2], etc. "
+                    "Utilise uniquement les identifiants présents dans les documents fournis. "
+                    "Si tu ne sais pas répondre, n'ajoute aucune citation."
                 ),
             },
             {

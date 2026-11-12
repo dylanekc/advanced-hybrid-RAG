@@ -1,6 +1,8 @@
 from pathlib import Path
 from typing import List, Dict, Any
 from tqdm import tqdm
+from docx import Document
+import fitz
 
 
 def chunk_md(size_chunks: int) -> List[Dict[str, Any]]:
@@ -11,13 +13,33 @@ def chunk_md(size_chunks: int) -> List[Dict[str, Any]]:
     if not docs.exists():
         return []
 
-    all_files_md = list(docs.rglob("*.md"))
+    all_files = []
+    for ext in ("*.md", "*.txt", "*.docx", "*.pdf"):
+        all_files.extend(list(docs.rglob(ext)))
+
     lst = []
     overlap = int(size_chunks * 0.4)
 
-    for file in tqdm(all_files_md, desc="Chunk MD"):
+    for file in tqdm(all_files, desc="Chunking documents"):
         try:
-            text = file.read_text(encoding="utf-8")
+            text = ""
+            ext = file.suffix.lower()
+
+            # Extraction du texte selon l'extension
+            if ext in (".md", ".txt"):
+                text = file.read_text(encoding="utf-8")
+            elif ext == ".docx":
+                doc = Document(file)
+                text = "\n".join([p.text for p in doc.paragraphs])
+            elif ext == ".pdf":
+                with fitz.open(file) as pdf_doc:
+                    for page in pdf_doc:
+                        text += page.get_text()
+
+            if not text.strip():
+                continue
+
+            # Logique de découpage d'origine inchangée
             start = 0
             while start < len(text):
                 old_start = start

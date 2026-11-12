@@ -1,0 +1,52 @@
+{
+    "query": "tu sais quoi sur le marathon ??",
+    "context": "[S1]\nLe marathon moderne trouve ses origines dans la légende de Philippidès, un messager grec qui aurait couru de Marathon à Athènes pour annoncer la victoire contre les Perses en 490 av. J.-C. Officialisé lors des premiers Jeux olympiques modernes en 1896, sa distance exacte de 42,195 kilomètres a été fixée lors des JO de Londres en 1908 pour que la course se termine précisément sous la loge royale. \nSur le plan physiologique, courir une telle distance nécessite une préparation méticuleuse de\n\n[S2]\nlipidiques, et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial : la phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course permet de maximiser les stocks de glycogène musculaire. Enfin, après l'effort, un retour au calme (RAC) de 10 à 15 minutes et une hydratation avec des boissons riches en électrolytes sont indispensables pour limiter l'apparition des courbatures et accélérer la récupération.\nL'expédition\n\n[S3]\ns'est articulée autour de trois camps successifs. Au camp de base (1 200 m), les provisions comprenaient du pemmican, du pain de seigle et des tablettes de chocolat noir. Les consignes médicales strictes stipulaient que le pemmican était réservé exclusivement aux altitudes supérieures à 2 000 mètres pour éviter les indigestions en zone basse. De plus, le médecin de l'expédition avait formellement interdit la consommation de chocolat noir dès que la température ambiante descendait sous les -15\n\n[S4]\nété fixée lors des JO de Londres en 1908 pour que la course se termine précisément sous la loge royale. \nSur le plan physiologique, courir une telle distance nécessite une préparation méticuleuse de plusieurs mois, combinant des sorties longues pour habituer le corps à puiser dans ses réserves lipidiques, et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial : la phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course\n\n[S5]\nau calme (RAC) de 10 à 15 minutes et une hydratation avec des boissons riches en électrolytes sont indispensables pour limiter l'apparition des courbatures et accélérer la récupération.\nL'expédition arctique de 1924, dirigée par le botaniste Jules Vernet (sans lien avec l'écrivain), s'est articulée autour de trois camps successifs. Au camp de base (1 200 m), les provisions comprenaient du pemmican, du pain de seigle et des tablettes de chocolat noir. Les consignes médicales strictes",
+    "results": [
+        {
+            "score": 0.6329653859138489,
+            "text": "Le marathon moderne trouve ses origines dans la légende de Philippidès, un messager grec qui aurait couru de Marathon à Athènes pour annoncer la victoire contre les Perses en 490 av. J.-C. Officialisé lors des premiers Jeux olympiques modernes en 1896, sa distance exacte de 42,195 kilomètres a été fixée lors des JO de Londres en 1908 pour que la course se termine précisément sous la loge royale. \nSur le plan physiologique, courir une telle distance nécessite une préparation méticuleuse de",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/local-rag-app/backend/Data_RAG/data_rag.md",
+                "first_character_index": 0,
+                "last_character_index": 495
+            }
+        },
+        {
+            "score": 0.35894638299942017,
+            "text": "lipidiques, et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial : la phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course permet de maximiser les stocks de glycogène musculaire. Enfin, après l'effort, un retour au calme (RAC) de 10 à 15 minutes et une hydratation avec des boissons riches en électrolytes sont indispensables pour limiter l'apparition des courbatures et accélérer la récupération.\nL'expédition",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/local-rag-app/backend/Data_RAG/data_rag.md",
+                "first_character_index": 591,
+                "last_character_index": 1086
+            }
+        },
+        {
+            "score": 0.3087511956691742,
+            "text": "s'est articulée autour de trois camps successifs. Au camp de base (1 200 m), les provisions comprenaient du pemmican, du pain de seigle et des tablettes de chocolat noir. Les consignes médicales strictes stipulaient que le pemmican était réservé exclusivement aux altitudes supérieures à 2 000 mètres pour éviter les indigestions en zone basse. De plus, le médecin de l'expédition avait formellement interdit la consommation de chocolat noir dès que la température ambiante descendait sous les -15",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/local-rag-app/backend/Data_RAG/data_rag.md",
+                "first_character_index": 1171,
+                "last_character_index": 1669
+            }
+        },
+        {
+            "score": 0.15520353615283966,
+            "text": "été fixée lors des JO de Londres en 1908 pour que la course se termine précisément sous la loge royale. \nSur le plan physiologique, courir une telle distance nécessite une préparation méticuleuse de plusieurs mois, combinant des sorties longues pour habituer le corps à puiser dans ses réserves lipidiques, et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial : la phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/local-rag-app/backend/Data_RAG/data_rag.md",
+                "first_character_index": 295,
+                "last_character_index": 795
+            }
+        },
+        {
+            "score": 0.01644415594637394,
+            "text": "au calme (RAC) de 10 à 15 minutes et une hydratation avec des boissons riches en électrolytes sont indispensables pour limiter l'apparition des courbatures et accélérer la récupération.\nL'expédition arctique de 1924, dirigée par le botaniste Jules Vernet (sans lien avec l'écrivain), s'est articulée autour de trois camps successifs. Au camp de base (1 200 m), les provisions comprenaient du pemmican, du pain de seigle et des tablettes de chocolat noir. Les consignes médicales strictes",
+            "chunk": {
+                "file_path": "/Users/dylanekici/project_perso/local-rag-app/backend/Data_RAG/data_rag.md",
+                "first_character_index": 884,
+                "last_character_index": 1375
+            }
+        }
+    ],
+    "reponse": "Oui, je peux vous donner des informations sur le marathon basées sur les documents fournis.\n\nLe marathon moderne trouve ses origines dans une légende antique et a été officialisé lors des premiers Jeux olympiques modernes en 1896. Sa distance exacte de 42,195 kilomètres a été fixée lors des Jeux olympiques de Londres en 1908, pour que la course se termine précisément sous la loge royale [S1, S4, S5].\n\nSur le plan physiologique, courir un tel marathon nécessite une préparation méticuleuse de plusieurs mois. Cela inclut des sorties longues pour habituer le corps à utiliser ses réserves lipidiques et du fractionné (VMA) pour améliorer le VO2 max. L'alimentation joue également un rôle crucial. La phase de surcompensation glucidique (glycogen loading) les trois jours précédant la course permet de maximiser les stocks de glycogène musculaire. Après l'effort, il est important de pratiquer le retour au calme (RAC) de 10 à 15 minutes et de bien se hydrater avec des boissons riches en électrolytes pour limiter l'apparition des courbatures et accélérer la récupération [S1, S2, S4]."
+}
